@@ -24,6 +24,13 @@ you can enter the commands in advance.
   by the given amount (either the number of steps, or the angle in degrees with the suffix `d` added
   without space, e.g. `360d` for a full turn) in the given amount of time given in seconds (or as fast
   as possible if omitted)
+- `freeze [exec|comm|none]`: sets the freeze mode to one of the three possible modes, or queries the
+  current freeze mode if neither of them are provided
+  - `exec`: the commands will not execute
+  - `comm`: the commands will execute and the board will not listen to any communication until they
+    are finished
+  - `none`: the commands are executing, the communication channels are open (default)
+- `clear`: terminate execution, clear all commands
 
 ## Applications
 
