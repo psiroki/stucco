@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.linux": {
+			"PATH": "/home/siroki/.platformio/penv/bin:/home/siroki/.platformio/penv:/home/siroki/Applications/bin:/usr/lib/dart/bin:/home/siroki/Applications/bin:/usr/lib/dart/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/siroki/.pub-cache/bin:/home/siroki/.pub-cache/bin",
+			"PLATFORMIO_CALLER": "vscode"
+		}
+	}
+}
